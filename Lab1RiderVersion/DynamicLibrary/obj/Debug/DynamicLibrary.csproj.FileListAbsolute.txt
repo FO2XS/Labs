@@ -1,0 +1,6 @@
+D:\Университет\7 семестр\АрхитектураЭВМ\GitRepository\Labs\Lab1RiderVersion\DynamicLibrary\bin\Debug\DynamicLibrary.dll
+D:\Университет\7 семестр\АрхитектураЭВМ\GitRepository\Labs\Lab1RiderVersion\DynamicLibrary\bin\Debug\DynamicLibrary.pdb
+D:\Университет\7 семестр\АрхитектураЭВМ\GitRepository\Labs\Lab1RiderVersion\DynamicLibrary\obj\Debug\DynamicLibrary.csproj.AssemblyReference.cache
+D:\Университет\7 семестр\АрхитектураЭВМ\GitRepository\Labs\Lab1RiderVersion\DynamicLibrary\obj\Debug\DynamicLibrary.csproj.CoreCompileInputs.cache
+D:\Университет\7 семестр\АрхитектураЭВМ\GitRepository\Labs\Lab1RiderVersion\DynamicLibrary\obj\Debug\DynamicLibrary.dll
+D:\Университет\7 семестр\АрхитектураЭВМ\GitRepository\Labs\Lab1RiderVersion\DynamicLibrary\obj\Debug\DynamicLibrary.pdb
