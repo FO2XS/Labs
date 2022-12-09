@@ -1,0 +1,12 @@
+D:\Университет\7 семестр\АрхитектураЭВМ\Lab1RiderVersion\CommonLibrary\bin\Debug\net6.0\CommonLibrary.deps.json
+D:\Университет\7 семестр\АрхитектураЭВМ\Lab1RiderVersion\CommonLibrary\bin\Debug\net6.0\CommonLibrary.dll
+D:\Университет\7 семестр\АрхитектураЭВМ\Lab1RiderVersion\CommonLibrary\bin\Debug\net6.0\CommonLibrary.pdb
+D:\Университет\7 семестр\АрхитектураЭВМ\Lab1RiderVersion\CommonLibrary\obj\Debug\net6.0\CommonLibrary.csproj.AssemblyReference.cache
+D:\Университет\7 семестр\АрхитектураЭВМ\Lab1RiderVersion\CommonLibrary\obj\Debug\net6.0\CommonLibrary.GeneratedMSBuildEditorConfig.editorconfig
+D:\Университет\7 семестр\АрхитектураЭВМ\Lab1RiderVersion\CommonLibrary\obj\Debug\net6.0\CommonLibrary.AssemblyInfoInputs.cache
+D:\Университет\7 семестр\АрхитектураЭВМ\Lab1RiderVersion\CommonLibrary\obj\Debug\net6.0\CommonLibrary.AssemblyInfo.cs
+D:\Университет\7 семестр\АрхитектураЭВМ\Lab1RiderVersion\CommonLibrary\obj\Debug\net6.0\CommonLibrary.csproj.CoreCompileInputs.cache
+D:\Университет\7 семестр\АрхитектураЭВМ\Lab1RiderVersion\CommonLibrary\obj\Debug\net6.0\CommonLibrary.dll
+D:\Университет\7 семестр\АрхитектураЭВМ\Lab1RiderVersion\CommonLibrary\obj\Debug\net6.0\refint\CommonLibrary.dll
+D:\Университет\7 семестр\АрхитектураЭВМ\Lab1RiderVersion\CommonLibrary\obj\Debug\net6.0\CommonLibrary.pdb
+D:\Университет\7 семестр\АрхитектураЭВМ\Lab1RiderVersion\CommonLibrary\obj\Debug\net6.0\ref\CommonLibrary.dll
