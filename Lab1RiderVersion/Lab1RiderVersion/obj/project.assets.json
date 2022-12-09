@@ -1577,11 +1577,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Университет\\7 семестр\\АрхитектураЭВМ\\Lab1RiderVersion\\Lab1RiderVersion\\Lab1RiderVersion.csproj",
+      "projectUniqueName": "D:\\Университет\\7 семестр\\АрхитектураЭВМ\\GitRepository\\Labs\\Lab1RiderVersion\\Lab1RiderVersion\\Lab1RiderVersion.csproj",
       "projectName": "Lab1RiderVersion",
-      "projectPath": "D:\\Университет\\7 семестр\\АрхитектураЭВМ\\Lab1RiderVersion\\Lab1RiderVersion\\Lab1RiderVersion.csproj",
+      "projectPath": "D:\\Университет\\7 семестр\\АрхитектураЭВМ\\GitRepository\\Labs\\Lab1RiderVersion\\Lab1RiderVersion\\Lab1RiderVersion.csproj",
       "packagesPath": "C:\\Users\\foxxs\\.nuget\\packages\\",
-      "outputPath": "D:\\Университет\\7 семестр\\АрхитектураЭВМ\\Lab1RiderVersion\\Lab1RiderVersion\\obj\\",
+      "outputPath": "D:\\Университет\\7 семестр\\АрхитектураЭВМ\\GitRepository\\Labs\\Lab1RiderVersion\\Lab1RiderVersion\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -1603,8 +1603,8 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "projectReferences": {
-            "D:\\Университет\\7 семестр\\АрхитектураЭВМ\\Lab1RiderVersion\\CommonLibrary\\CommonLibrary.csproj": {
-              "projectPath": "D:\\Университет\\7 семестр\\АрхитектураЭВМ\\Lab1RiderVersion\\CommonLibrary\\CommonLibrary.csproj"
+            "D:\\Университет\\7 семестр\\АрхитектураЭВМ\\GitRepository\\Labs\\Lab1RiderVersion\\CommonLibrary\\CommonLibrary.csproj": {
+              "projectPath": "D:\\Университет\\7 семестр\\АрхитектураЭВМ\\GitRepository\\Labs\\Lab1RiderVersion\\CommonLibrary\\CommonLibrary.csproj"
             }
           }
         }

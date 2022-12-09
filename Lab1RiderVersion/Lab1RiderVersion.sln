@@ -6,7 +6,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CommonLibrary", "CommonLibr
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FuckMyMind", "FuckMyMind\FuckMyMind.csproj", "{29831C3B-101F-4D71-BFA8-E356F131BC5E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WindowsFormsApp1", "WindowsFormsApp1\WindowsFormsApp1.csproj", "{99AB9606-965D-47B8-9E46-E3A6766D638A}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Lab3", "Lab3\Lab3.csproj", "{99AB9606-965D-47B8-9E46-E3A6766D638A}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

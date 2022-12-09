@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "6j4AZO4gjF4RqwmveQonx9TbbUIJSTzU2AGRW/qTmgRiX1KgyOtihciwPariadzJ5vC+nRPIQjdDe0c0cIUlWg==",
+  "dgSpecHash": "fvoto5rUzh7DIa/xm0hDST3CV9rBafIqP6jeCZSqZD/Kcq1Qkhm1iKUB1fggytg2I5/ewuhG9HTHFdzehfCpAQ==",
   "success": true,
-  "projectFilePath": "D:\\Университет\\7 семестр\\АрхитектураЭВМ\\Lab1RiderVersion\\Lab1RiderVersion\\Lab1RiderVersion.csproj",
+  "projectFilePath": "D:\\Университет\\7 семестр\\АрхитектураЭВМ\\GitRepository\\Labs\\Lab1RiderVersion\\Lab1RiderVersion\\Lab1RiderVersion.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\foxxs\\.nuget\\packages\\microsoft.netcore.platforms\\2.0.0\\microsoft.netcore.platforms.2.0.0.nupkg.sha512",
     "C:\\Users\\foxxs\\.nuget\\packages\\microsoft.win32.registry\\4.5.0\\microsoft.win32.registry.4.5.0.nupkg.sha512",
