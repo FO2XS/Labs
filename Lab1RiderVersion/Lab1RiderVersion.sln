@@ -2,6 +2,8 @@
 Microsoft Visual Studio Solution File, Format Version 12.00
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AzimutLibrary", "AzimutLibrary\AzimutLibrary.csproj", "{7DFBF0CF-6238-4890-9E2B-793671B576B8}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AzimutTests", "AzimutTests\AzimutTests.csproj", "{D7740A5B-2108-45D5-9CBA-BEEE3BC1D26F}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -12,5 +14,9 @@ Global
 		{7DFBF0CF-6238-4890-9E2B-793671B576B8}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{7DFBF0CF-6238-4890-9E2B-793671B576B8}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{7DFBF0CF-6238-4890-9E2B-793671B576B8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D7740A5B-2108-45D5-9CBA-BEEE3BC1D26F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D7740A5B-2108-45D5-9CBA-BEEE3BC1D26F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D7740A5B-2108-45D5-9CBA-BEEE3BC1D26F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D7740A5B-2108-45D5-9CBA-BEEE3BC1D26F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
