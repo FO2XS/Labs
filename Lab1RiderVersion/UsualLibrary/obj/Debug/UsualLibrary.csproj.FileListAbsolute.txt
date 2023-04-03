@@ -1,6 +1,0 @@
-D:\Университет\7 семестр\АрхитектураЭВМ\GitRepository\Labs\Lab1RiderVersion\UsualLibrary\bin\Debug\UsualLibrary.dll
-D:\Университет\7 семестр\АрхитектураЭВМ\GitRepository\Labs\Lab1RiderVersion\UsualLibrary\bin\Debug\UsualLibrary.pdb
-D:\Университет\7 семестр\АрхитектураЭВМ\GitRepository\Labs\Lab1RiderVersion\UsualLibrary\obj\Debug\UsualLibrary.csproj.AssemblyReference.cache
-D:\Университет\7 семестр\АрхитектураЭВМ\GitRepository\Labs\Lab1RiderVersion\UsualLibrary\obj\Debug\UsualLibrary.csproj.CoreCompileInputs.cache
-D:\Университет\7 семестр\АрхитектураЭВМ\GitRepository\Labs\Lab1RiderVersion\UsualLibrary\obj\Debug\UsualLibrary.dll
-D:\Университет\7 семестр\АрхитектураЭВМ\GitRepository\Labs\Lab1RiderVersion\UsualLibrary\obj\Debug\UsualLibrary.pdb
