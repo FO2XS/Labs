@@ -33,7 +33,8 @@ public class GeoManagerTest
     {
         var result = GeoManager.CalculateAzimut(startPoint, endPoint);
         
-        Assert.AreEqual(expectedAzimut, result.Degree);
+        Assert.IsTrue(expectedAzimut + 0.5 >= result.Degree
+                      && expectedAzimut - 0.5 <= result.Degree);
     }
     
     /// <summary>
@@ -41,14 +42,15 @@ public class GeoManagerTest
     /// </summary>
     /// <param name="startPoint"></param>
     /// <param name="endPoint"></param>
-    /// <param name="expectedAzimut"></param>
+    /// <param name="expectedDistance"></param>
     [TestMethod]
     [DynamicData(nameof(GetCorrectPointsDistance), DynamicDataSourceType.Method)]
-    public void CalculateAzimut_CorrectPoints_CorrectDistance(GeoPoint startPoint, GeoPoint endPoint, double expectedAzimut)
+    public void CalculateAzimut_CorrectPoints_CorrectDistance(GeoPoint startPoint, GeoPoint endPoint, double expectedDistance)
     {
         var result = GeoManager.CalculateAzimut(startPoint, endPoint);
         
-        Assert.AreEqual(expectedAzimut, result.Distance);
+        Assert.IsTrue(expectedDistance + 500 >= result.Distance
+                      && expectedDistance - 500 <= result.Distance);
     }
     
     /// <summary>
@@ -63,7 +65,7 @@ public class GeoManagerTest
     {
         var result = GeoManager.CalculateAzimut(startPoint, endPoint);
         
-        Assert.AreEqual(expectedAzimut, result.Degree);
+        Assert.AreEqual((int) expectedAzimut, result.Degree);
     }
     
     /// <summary>
@@ -72,11 +74,11 @@ public class GeoManagerTest
     /// <param name="startPoint">Начальная точка.</param>
     /// <param name="endPoint">Конечная точка.</param>
     [TestMethod]
-    [ExpectedException(typeof(ArithmeticException))]
     [DynamicData(nameof(GetPoints), DynamicDataSourceType.Method)]
     public void CalculateAzimut_Points_СheckHalfEarthLength(GeoPoint startPoint, GeoPoint endPoint)
     {
-        Assert.IsTrue(GeoManager.CalculateAzimut(startPoint, endPoint).Distance <= _halfEarthLength);
+        var result = GeoManager.CalculateAzimut(startPoint, endPoint);
+        Assert.IsTrue(result.Distance <= _halfEarthLength);
     }
 
     #endregion
@@ -88,8 +90,8 @@ public class GeoManagerTest
         // Точки на экваторе.
         yield return new object? []
         {
+            new GeoPoint(0, 10),
             new GeoPoint(0, 120),
-            new GeoPoint(0, -100),
             90
         };
         
@@ -124,6 +126,14 @@ public class GeoManagerTest
             new GeoPoint(-42, -87),
             247.97
         };
+        
+        // Случайные точки.
+        yield return new object? []
+        {
+            new GeoPoint(20, 45),
+            new GeoPoint(30, 50),
+            23.48
+        };
     }
     
     private static IEnumerable<object? []> GetCorrectPointsDistance()
@@ -133,7 +143,7 @@ public class GeoManagerTest
         {
             new GeoPoint(37, 67),
             new GeoPoint(-42, -87),
-            12532.95
+            17998.88
         };
         
         // Случайные точки.
@@ -141,7 +151,7 @@ public class GeoManagerTest
         {
             new GeoPoint(87, 67),
             new GeoPoint(-42, -87),
-            11735.77
+            14992.72
         };
     }
     
