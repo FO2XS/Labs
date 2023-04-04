@@ -5,21 +5,50 @@
 /// </summary>
 public class GeoPoint
 {
+    private double _latitudeDegree;
+    private double _longitudeDegree;
+
     /// <summary>
     /// Широта.
     /// </summary>
-    public double LatitudeDegree { get; set; }
-    
+    public double LatitudeDegree
+    {
+        get => _latitudeDegree;
+        set
+        {
+            if (value is <= 90 and >= -90)
+                _latitudeDegree = value;
+            else
+            {
+                throw new ArgumentException();
+            }
+
+        }
+    }
+
     /// <summary>
     /// Широта в радианах.
     /// </summary>
     public double LatitudeRadian => LatitudeDegree * Math.PI / 180;
-    
+
     /// <summary>
     /// Долгота.
     /// </summary>
-    public double LongitudeDegree { get; set; }
-    
+    public double LongitudeDegree
+    {
+        get => _longitudeDegree;
+        set
+        {
+            if (value is <= 180 and >= -180)
+                _longitudeDegree = value;
+            else
+            {
+                throw new ArgumentException();
+            }
+
+        }
+    }
+
     /// <summary>
     /// Долгота в радианах.
     /// </summary>
